@@ -1,39 +1,6 @@
-body {
-    background-image: url(safari.jpg);
+.jumbotron {
+    background-image: url(chiskyline.jpg);
     background-size: cover;
-}
-
-h1 {
-    color: gray;
-    font-family: cursive;
-    text-align: center;
-    text-shadow: 1px 1px 1px darkturquoise;
-}
-
-h2 {
-    color: navy;
-}
-
-#p1 {
-    color: orange;
-}
-
-#p2 {
-    color: green;
-}
-
-p a {
-    color: #03a9f4;
-}
-
-.tacos {
-    font-size: 42px;
-}
-
-img {
-    height: 200px;
-    transform: rotate(-5deg);
-    border-color: rgb(150, 127, 255);
-    border-style: solid;
-    border-width: 5px;
-}
+    color: white;
+    text-shadow: 2px 2px 2px black;
+} 
