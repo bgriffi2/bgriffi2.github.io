@@ -1,5 +1,5 @@
 body {
-    background-image: url(curling.jpg);
+    background-image: url(safari.jpg);
     background-size: cover;
 }
 
@@ -34,6 +34,6 @@ img {
     height: 200px;
     transform: rotate(-5deg);
     border-color: rgb(150, 127, 255);
-    border-style: dotted;
+    border-style: solid;
     border-width: 5px;
 }
