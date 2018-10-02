@@ -2,6 +2,8 @@
 <html>  
     <head>
             <title>BG's website</title>
+            <!-- This is way to link this file to css file-->
+            <link rel="stylesheet" href="styles.css">
     </head>
     <body>
         <!-- This is html, use command slash to write comments -->
@@ -10,11 +12,14 @@
         <h2>I'm really excited about it</h2>
         <h3>It took a while to build it</h3>
         <h4>But I'm please with how it turned out...</h4>
-        <p>Isn't it <em>awesome?!</em></p>
+        <!-- "IDs" are unique for each page e.g. can only have one p1, one p2, etc.
+        However, for "class" you can have more than one
+        In terms of orer of operations, IDs take priority over classes and the last spec in the css file wins-->
+        <p id="p1" class="tacos"> Isn't it <em>awesome?!</em></p>
         <hr>
+        <p id="p2" class="tacos">This is our lion friend. What should we name him?</em></p>
         <img src="lion.jpeg">
         <!-- to get the light blue to complete press tab when options pop up -->
-        <p>This is our lion friend. What should we name him?</em></p>
         <ul>
             <li>Simba</li>
             <li>Mufasa</li>
