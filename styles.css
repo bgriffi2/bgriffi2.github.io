@@ -1,6 +1,33 @@
-.jumbotron {
+#homejumbo {
     background-image: url(chiskyline.jpg);
     background-size: cover;
     color: white;
+    text-align: center;
     text-shadow: 2px 2px 2px black;
 } 
+
+#getjumbo {
+    background-image: url(train.jpg);
+    background-size: cover;
+    background-position: center;
+    color: white;
+    text-align: center;
+    text-shadow: 2px 2px 2px black;
+} 
+
+#stuffjumbo {
+    background-image: url(park.jpg);
+    background-size: cover;
+    background-position: center;
+    color: white;
+    text-align: center;
+    text-shadow: 2px 2px 2px black;
+} 
+
+h1 {
+    font-family: 'Homemade Apple', cursive;
+}
+
+#introtext {
+    text-align: center;
+}

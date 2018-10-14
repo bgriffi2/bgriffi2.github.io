@@ -1,5 +1,6 @@
 <!doctype html>
 <html lang="en">
+
   <head>
     <!-- Required meta tags -->
     <meta charset="utf-8">
@@ -7,86 +8,66 @@
 
     <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+    
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.3.1/css/all.css" integrity="sha384-mzrmE5qonljUremFsqc01SB46JvROS7bZs3IO2EmfFsd15uHvIt+Y8vEf7N7fWAU"
+    crossorigin="anonymous">
+
+    <!-- Google Fonts -->
+    <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
+    
     <!-- My CSS -->
     <link rel="stylesheet" href="styles.css">
+    
     <title>Sweet Home Chicago</title>
   </head>
+
   <body>
+    <!-- Navbar code -->
     <nav class="navbar navbar-expand-lg navbar-light bg-light">
-        <div class="collapse navbar-collapse" id="navbarSupportedContent">
-          <ul class="navbar-nav mr-auto">
-            <li class="nav-item active">
-              <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="#">Getting Here</a>
-            </li>
-            <li class="nav-item">
-                <a class="nav-link" href="#">Lodging</a>
-              </li>
-            <li class="nav-item dropdown">
-              <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                Things to Do
-              </a>
-              <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-                <a class="dropdown-item" href="#">Sports</a>
-                <a class="dropdown-item" href="#">Food</a>
-                <a class="dropdown-item" href="#">Music</a>
-                <a class="dropdown-item" href="#">Museums</a>
-              </div>
-            </li>
-          </ul>
-          <form class="form-inline my-2 my-lg-0">
-            <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
-            <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
-          </form>
-        </div>
-      </nav>
-    <div class="jumbotron jumbotron-fluid">
+      <a class="navbar-brand" href="index.html"><i class="fas fa-city"></i> Home</a>
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button> 
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav mr-auto">
+          <li class="nav-item">
+            <a class="nav-link" href="page2.html"><i class="fas fa-subway"></i> Getting Around</a>
+          </li>
+          <li class="nav-item">
+              <a class="nav-link" href="page3.html"><i class="fas fa-walking"></i> Stuff to Do</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="https://www.tripadvisor.com/Tourism-g35805-Chicago_Illinois-Vacations.html"><i class="fas fa-bookmark"></i> Add'l Resources</a>
+          </li>
+        </ul>
+      </div>
+    </nav>
+
+    <!-- Jumbotron code -->
+    <div id="homejumbo" class="jumbotron jumbotron-fluid">
         <div class="container">
         <h1 class="display-4">Chicago</h1>
         <p class="lead">The greatest city in the world for approximately 3 months out of the year</p>
         </div>
     </div>
+
+    <!-- Welcome text code -->
     <div class="container">
         <div class="row">
-            <!-- naming convention tells browser when to break columns to stacked (blank, sm, md, lg, or xl) and number indicated how many columns to take up (total to 12 per row)-->
             <div class="col-lg-2">
-                <a class="btn btn-success" href="http://google.com/">Internet</a>
             </div>
-            <div class="col-lg-8">
-                <table class="table-bordered table-striped">
-                    <tr>
-                    <th>Type</th>
-                    <th>Price</th>
-                    </tr>
-                    <tr>
-                    <td>Carne Asada</td>
-                    <td>$13</td>
-                    </tr>
-                    <tr>
-                    <td>Carnitas</td>
-                    <td>$11</td>
-                    </tr>
-                    <tr>
-                    <td>Chicken</td>
-                    <td>$10</td>
-                    </tr>
-                    <tr>
-                    <td>Fish</td>
-                    <td>$14</td>
-                    </tr>
-                    <tr>
-                    <td>Shrimp</td>
-                    <td>$12</td>
-                    </tr>
-                </table>
-            </div>
+            <p id="introtext">So you're thinking about visiting Chicago?! Well you've come to the right place, especially if you're on a budget! As a graduate student living in Evanston, I'm excited to share my tips on how to enjoy the city without emptying your wallet. Before you dive into your trip planning, have a look at this video that will surely convince you that visiting this beautiful city on Lake Michigan will be the best decision you ever made (assuming you're visiting in May, June, or September):</p>
             <div class="col-lg-2">
-                <h1>Column 3</h1>
             </div>
         </div>    
     </div>
+    
+    <!-- YouTube video code -->
+    <div class="embed-responsive embed-responsive-16by9">
+        <iframe class="embed-responsive-item" width="700" src="https://www.youtube.com/embed/eZjmjT5SLYs?rel=0" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+    </div>
+
     <!-- Optional JavaScript -->
     <!-- jQuery first, then Popper.js, then Bootstrap JS -->
     <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
