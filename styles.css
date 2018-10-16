@@ -28,6 +28,14 @@ h1 {
     font-family: 'Homemade Apple', cursive;
 }
 
+h2 {
+    font-style: italic;
+}
+
+h4 {
+    font-style: italic;
+}
+
 #introtext {
     text-align: center;
 }
